@@ -1,0 +1,250 @@
+.error
+{
+            background: black;
+			color:red;
+			margin-top: 10px;
+			margin-bottom: 10px;
+}
+.cowgurze
+{
+  height: 30px;
+    margin-bottom: 40px;
+}
+
+.tylna_tablica
+{
+    background-color: #33CC33;
+}
+.nagl_przedniej_tablica
+{
+    background-color: #150fc2;
+    color: aliceblue;
+    text-align: center;
+}
+.przednia_tablica{
+     background-color: #605bf0;
+}
+.pudelko_w_pudelku
+{
+    background-color: #00FF99;
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 8px solid #b3b3b3;
+}
+.pudelko_na_artykuly
+{
+    background-color: #5f5f9f;
+ 
+
+}
+.portol
+{
+   padding: 0.5em, 0.5em, 0.5em, 0.5em; 
+}
+.pudelko_bocznego_zazonku
+{
+    background-color: #555555;
+ 
+
+}
+.pudelko_na_atora
+{
+    background-color: #87f679;
+}
+.pudelko_na_tytul
+{
+color:#000000;
+    background-color:#0AA83F;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:114%;
+    text-align:center;
+    font-family:arial, helvetica,sans-serif;
+    line-height:1;
+
+}
+.pudelko_na_tresc
+{
+    color: white;
+    background-color: blueviolet;
+}
+.pudelko_na_date
+{
+    color:  chartreuse;
+    background-color: black;
+}
+.tekstintableuser
+{
+    color: chartreuse ;
+    -ms-color: chartreuse ;
+}
+.rej
+{   
+    padding: auto;
+    text-align: center;
+    background-color: #332f80;
+	border-radius: 44px 44px 44px 44px;
+-moz-border-radius: 44px 44px 44px 44px;
+-webkit-border-radius: 44px 44px 44px 44px;
+border: 11px solid #2de05a;
+    -webkit-box-shadow: 10px 10px 26px 3px rgba(88,204,107,1);
+-moz-box-shadow: 10px 10px 26px 3px rgba(88,204,107,1);
+box-shadow: 10px 10px 26px 3px rgba(88,204,107,1);
+}
+.start
+{
+    color: chartreuse;
+    font-weight: bold;
+    text-align: center;
+}
+body, html
+{
+    min-height: 100%;
+    margin: 0px;
+}
+.napisynaczarnym
+{
+ color: white;    
+}
+.regulamin
+{
+  color: aliceblue ;
+}
+.fic
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tyl
+{   
+    background-size: cover;
+    background-image: url(obrazki/t%C5%82otylne.png);
+}
+
+.witaj
+{
+   background: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+.obrazekfir
+{
+    width: 100%;
+	height: auto;
+}
+.obrazekurzyt
+{
+    width: 40%;
+	height: 20%;
+}    
+}
+ input[type=text],
+ input[type=password]
+{
+	
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=text]:focus,
+ input[type=password]:focus
+
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+.czerwony_przycisk
+{
+	
+	background-color: red;
+	font-size:65%;
+	color: white;
+	height:  60px;
+    width: 60%;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+.zielony_przycisk
+{
+	
+	background-color: #36b03c;
+	font-size:65%;
+	color: white;
+    height: 60px;
+    width: 60%;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+ input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+ input[type=submit]:hover
+{
+	background-color: #37b93d;
+}
+
+ input::-webkit-input-placeholder
+{
+    color: #999;
+}
+.logres_pojemnik input:focus::-webkit-input-placeholder
+{
+    color: #428C42;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #999;
+}
+ input:focus:-moz-placeholder
+{
+    color: #428C42;
+}
+/* Firefox > 19 */
+ input::-moz-placeholder
+{
+    color: #999;
+}
+ input:focus::-moz-placeholder
+{
+    color: #428C42;
+}
+/* Internet Explorer 10 */
+ input:-ms-input-placeholder
+{
+    color: #999;
+}
+ input:focus:-ms-input-placeholder
+{
+    color: #428C42;
+}
